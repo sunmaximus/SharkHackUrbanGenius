@@ -38,7 +38,7 @@ We were able to implement the player with Spotify and the Urban Dictionary API.
 
 ## How to run 
 
-1. ```git clone https://github.com/kidculli/SharkHackUrbanGenius.git```
+1. ```git clone https://github.com/sunmaximus/SharkHackUrbanGenius.git```
 2. ```npm install ```
 3. ```npm start ```
 4. Open a browser and go to localhost:8080
