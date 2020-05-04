@@ -1,42 +1,46 @@
 {
-    "name": "redux-simple-starter",
-    "version": "1.0.0",
-    "description": "React with Youtube API",
-    "main": "index.js",
-    "repository": "",
-    "scripts": {
-        "dev": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
-        "postinstall": "webpack -p",
-        "start": "node server.js"
-    },
-    "author": "Son Nguyen",
-    "license": "ISC",
-    "devDependencies": {
-        "babel-core": "^6.16.0",
-        "babel-loader": "^6.2.5",
-        "babel-preset-es2015": "^6.16.0",
-        "babel-preset-react": "^6.16.0",
-        "webpack": "^1.13.2",
-        "webpack-dev-server": "^1.16.1"
-    },
-    "dependencies": {
-        "axios": "^0.9.1",
-        "babel-preset-stage-1": "^6.16.0",
-        "body-parser": "^1.15.2",
-        "cheerio": "^0.22.0",
-        "classnames": "^2.2.3",
-        "express": "^4.14.0",
-        "htmlparser": "^1.7.7",
-        "jquery": "^3.1.1",
-        "lodash": "^4.16.2",
-        "python-shell": "^0.4.0",
-        "react": "^15.3.2",
-        "react-autocomplete": "^1.0.0-rc2",
-        "react-dom": "^15.3.2",
-        "react-redux": "^4.4.5",
-        "react-sound": "^0.4.0",
-        "redux": "^3.6.0",
-        "soundmanager2": "^2.97.20150601-a",
-        "youtube-api-search": "0.0.5"
-    }
+  "name": "redux-simple-starter",
+  "version": "1.0.0",
+  "description": "React with Youtube API",
+  "main": "index.js",
+  "repository": "",
+  "scripts": {
+    "dev": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
+    "postinstall": "webpack -p",
+    "start": "node server.js",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "author": "Son Nguyen",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.16.0",
+    "babel-loader": "^6.2.5",
+    "babel-preset-es2015": "^6.16.0",
+    "babel-preset-react": "^6.16.0",
+    "webpack": "^1.13.2",
+    "webpack-dev-server": "^1.16.1"
+  },
+  "dependencies": {
+    "axios": "^0.9.1",
+    "babel-preset-stage-1": "^6.16.0",
+    "body-parser": "^1.15.2",
+    "cheerio": "^0.22.0",
+    "classnames": "^2.2.3",
+    "express": "^4.14.0",
+    "htmlparser": "^1.7.7",
+    "jquery": "^3.1.1",
+    "lodash": "^4.16.2",
+    "python-shell": "^0.4.0",
+    "react": "^15.3.2",
+    "react-autocomplete": "^1.0.0-rc2",
+    "react-dom": "^15.3.2",
+    "react-redux": "^4.4.5",
+    "react-sound": "^0.4.0",
+    "redux": "^3.6.0",
+    "soundmanager2": "^2.97.20150601-a",
+    "youtube-api-search": "0.0.5",
+    "snyk": "^1.317.0"
+  },
+  "snyk": true
 }
